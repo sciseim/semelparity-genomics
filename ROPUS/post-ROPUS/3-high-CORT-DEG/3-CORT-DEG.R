@@ -2,6 +2,7 @@ rm(list=ls()) # reset R
 setwd("~/Downloads/testing/HERE/")
 owd <- getwd()
 
+library(gtools) # for SUB.CORT-absFC-v2.R
 
 library(reshape2)
 source("SUB-summarySE.R")
